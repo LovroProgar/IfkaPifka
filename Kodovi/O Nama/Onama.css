@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    width: 65%;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main h1 {
+    margin: 0;
+    padding-top: 25px;
+    color: #000000;
+}
+
+.aboutContent {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.7;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: flex-start;
+    color: #333;
+}
+
+.aboutContent p {
+    margin-bottom: 18px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+    .main {
+        width: 80%;
+    }
+}
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    width: 65%;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.aboutText {
+    flex: 1;
+    min-width: 300px;
+    padding-top: 15px;
+}
+
+.aboutText h2 {
+    margin-bottom: 15px;
+    color: #00715A;
+}
+
+.aboutImage {
+    flex: 1;
+    text-align: center;
+    min-width: 280px;
+    
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.aboutImage img {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.mission {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mission h2 {
+    color: #00715A;
+    margin-bottom: 15px;
+}
+
+
+.mission ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.mission li::before {
+    color: #00715A;
+    margin-right: 6px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+    .main {
+        width: 80%;
+    }
+}

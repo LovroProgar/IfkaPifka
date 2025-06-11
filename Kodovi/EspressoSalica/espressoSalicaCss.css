@@ -1,0 +1,267 @@
+.mobile-menu {
+    background-color: #00715A;
+}
+
+.mobile-menu a:hover, .mobile-menu button:hover {
+    background-color: #005a47;
+}
+
+button.ceramics {
+    background-color: #33423e;
+    font-size: 1em;
+    padding: 0.2em 0.7em;
+    width: auto;
+    border-radius: 5px;
+    background-color: #43615f;
+    color: white;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.mobile-menu {
+    background-color: #545454;
+}
+
+.articleCont {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: auto;
+    display: flex;
+    margin-bottom: 100px;
+    gap: 115px;
+}
+
+
+.articleImageCont {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.articleImageCont img {
+    width: 100%;
+    height: 670px;
+    object-fit:cover;
+}
+
+.articleInfoCont {
+    padding-left: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.articleDescription {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-bottom: 0px;
+}
+
+.centerContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    justify-content: center;
+}
+
+
+#green {
+    color: green;
+}
+
+.priceColor {
+    color: #00715A;
+}
+
+#articlePrice {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+
+.articleSpecsCont {
+    display: flex;
+    flex-direction: column;
+}
+
+.articleRow {
+    display: flex;
+}
+
+.articleAttribute {
+    flex: 20%;
+}
+
+.articleRow .articleContent {
+    flex: 80%;
+}
+
+
+.amountAndBtnCont {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.amountAndBtnCont .amountCont{
+    display: flex;
+    flex: 30%;
+    align-items: center;
+}
+
+label {
+    margin: 0;
+}
+
+.amountAndBtnCont .btnCont {
+    flex: 1 1 calc(70% - 20px);
+}
+
+.amountCont input {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.amountAndBtnCont .btnCart {
+    width: 60%;
+    background-color: #3e5d5b; 
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.amountAndBtnCont .btnCart:hover {
+    background-color: #004D47;
+}
+
+
+
+.relatedProductsCont {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    border-radius: 15px
+}
+
+.relatedProductsCont .productsCont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.relatedProductsCont .cont {
+    flex: 0 1 calc(33.33% - 20px);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.relatedProductsCont .cont:hover {
+    transform: scale(1.05);
+}
+
+.relatedProductsCont .cont img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.emptyDiv {
+    flex: 1 1 calc(33.33% - 20px);
+}
+
+
+ 
+/*mobitel*/
+@media (max-width: 600px) {
+    .articleCont {
+        flex-direction: column;
+        width: 95%;
+        gap: 55px;
+    }
+
+    .amountAndBtnCont .amountCont {
+        flex: 100%;
+        margin-bottom: 15px;
+    }
+
+    .amountAndBtnCont .btnCont {
+        flex: 100%;
+    }
+
+    .amountAndBtnCont .btnCart {
+        width: 100%; 
+    }
+
+    .relatedProductsCont {
+        width: 95%;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .productsCont .cont img {
+        height: 350px;
+    }
+
+    .relatedProductsCont .productsCont {
+        flex-direction: column;
+    }
+
+    .productsCont {
+        row-gap: 50px;
+    }
+
+    ul.breadcrumbs  {
+        width: 95%;
+    }
+
+}
+
+
+
+
+
+/*tablet*/
+@media (min-width: 601px) and (max-width: 991px){
+    .articleCont {
+        width: 80%;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .relatedProductsCont {
+        width: 80%;
+        flex-wrap: wrap;
+        gap: 10px 0px;
+    }
+
+    .productsCont .cont {
+        flex: 1 1 calc(50% - 50px);
+    }
+
+    .productsCont {
+        gap: 40px 40px;
+    }
+
+    .relatedProductsCont .productsCont {
+        flex-wrap: wrap;
+    }
+
+    ul.breadcrumbs  {
+        width: 80%;
+    }
+
+}

@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginMain {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.mobile-menu {
+    background-color: #545454;
+}
+
+.loginBox {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.loginBox h2 {
+    margin-bottom: 25px;
+    color: black;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 15px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #43615f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif; 
+}
+
+
+button:hover {
+    background-color: #004d47;
+}

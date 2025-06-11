@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posudica</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Homepage/css.css">
+    <link rel="stylesheet" href="../UkrasniTanjur/Utanjur.css">
+    <link rel="stylesheet" href="sve.css">
+</head>
+<body>
+    <nav>
+        <div class="allTogether">
+            <a href="../Homepage/ifkaPifka.html">
+                <img src="../../Stvari/WebpSlikeConvertane/logoTransWebp.webp" class="logo">
+            </a>
+            <div class="contentCont">
+            <div class="content">
+                <button class="ceramics" onclick="location.href='../Keramika/keramika.html'">Keramika</button>
+                <a href="../O Nama/Onama.html">O nama</a>
+                <a href="../Kontakt/kontakt.html">Kontakt</a>
+                <a href="../Prijava/prijava.html">Prijava</a>
+                <a href="../Kosarica/kosarica.html" class="shoppingCartCont" id="shoppingCart">
+                        <i class="bi bi-cart-fill" id="icon"></i>
+                </a>
+            </div>
+            </div>
+            <div class="hamburger-menu">
+                <i class="bi bi-list" id="hamburger"></i>
+            </div>
+        </div>
+        
+        
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="../O Nama/Onama.html">O nama</a>
+            <a href="../Kontakt/kontakt.html">Kontakt</a>
+            <a href="../Prijava/prijava.html">Prijava</a>
+            <button class="ceramics" onclick="location.href='../Keramika/keramika.html'">Keramika</button>
+        </div>
+    </nav>
+
+
+<main class="mainConts">
+    <section class="articleCont">
+        <div class="articleImageCont">
+            <img src="../../Stvari/WebpSlikeConvertane/Proizvodi/Posudica/posudica2.webp" class="img-fluid">
+        </div>
+
+            <div class="articleInfoCont">
+                <h1><b>Posudica</b></h1>
+                <p><span id="green">Dostupno</span> - Isporuka 7-14 radnih dana</p>
+                <p class="articleDescription">
+                    Ova ručno izrađena keramička posudica nježnog dizajna i prirodnih tonova savršena je za posluživanje umaka, začina ili manjih zalogaja. Mat glazura i blago nepravilni rubovi odražavaju toplinu ručne izrade, čineći svaki komad jedinstvenim. Svojom jednostavnom elegancijom lako se uklapa u svaki prostor i unosi dašak autentičnosti na stol.
+
+                </p>
+
+                <div class="centerContent">
+                    <p id="articlePrice" class="priceColor">3.00€</p>
+                    <div class="articleSpecsCont">
+                        <div class="articleRow">
+                            <p class="articleAttribute">Težina:</p>
+                            <p class="articleContent">0.12kg</p>
+                        </div>
+                                        
+                        <div class="articleRow">
+                            <p class="articleAttribute">Dimenzije:</p>
+                            <p class="articleContent">zdjela - 2x2 (2dcl)</p>
+                        </div>
+
+                        <div class="articleRow">
+                            <p class="articleAttribute">Boja:</p>
+                            <p class="articleContent">crna</p>
+                        </div>
+                    </div>
+
+                    <div class="amountAndBtnCont">
+                        <div class="amountCont">
+                            <label for="amount">Količina</label>
+                            <input type="number" id="amount" min="1" required>
+                        </div>
+                        <div class="btnCont">
+                            <button type="submit" class="btnCart">U košaricu</button>
+                        </div>             
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="relatedProductsCont">
+        <div class="title">
+            <h3>Povezani proizvodi</h3>
+        </div>
+        <div class="productsCont">
+            <div class="cont">
+                <a href="../EspressoSalica/espressoSalicaITanjuric.html" class="articleLink">
+                    <img src="../../Stvari/WebpSlikeConvertane/Proizvodi/EspresoSalica/espresoSalica2.webp" class="img-fluid">
+                    <h4>Espresso šalica i pripadajući tanjurić</h4>
+                </a>
+                <p id="price">€7.00</p>
+            </div>
+    
+            <div class="cont">
+                <a href="../Posudica/Posudica.html" class="articleLink">
+                    <img src="../../Stvari/WebpSlikeConvertane/Proizvodi/MalaPosudica/casica1.webp" class="img-fluid">
+                    <h4>Posudica</h4>
+                </a>
+                <p id="price">€10.50</p>
+            </div>
+    
+            <div class="cont">
+                <a href="../UkrasniTanjur/Utanjur.html" class="articleLink">
+                    <img src="../../Stvari/WebpSlikeConvertane/Proizvodi/UkrasniTanjur/tanjur2.webp" class="img-fluid">
+                    <h4>Ukrasni tanjur</h4>
+                </a>
+                <p id="price">€10.50</p>
+            </div>
+    
+            <div class="cont">
+                <a href="../Šalica/Šalica.html" class="articleLink">
+                    <img src="../../Stvari/WebpSlikeConvertane/Proizvodi/Salica/salica.webp" class="img-fluid">
+                    <h4>Šalica</h4>
+                </a>
+                <p id="price">€5.00</p>
+            </div>
+
+            <div class="cont">
+                <a href="../MalaZdjela/MZdjela.html" class="articleLink">
+                    <img src="../../Stvari/WebpSlikeConvertane/Proizvodi/MalaZdjela/malaZdjela.webp" class="img-fluid">
+                    <h4>Mala zdjela</h4>
+                </a>
+                <p id="price">€2.50</p>
+            </div>
+
+            <div class="cont">
+                <a href="../Prsten/Prsten.html" class="articleLink">
+                    <img src="../../Stvari/WebpSlikeConvertane/Proizvodi/Prsten/prsten2.webp" class="img-fluid">
+                    <h4>Prsten</h4>
+                </a>
+                <p id="price">€10.50</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <aside class="footerContentCont">
+            <section class="logoSocialMedia">
+                <a href="../../Kodovi/Homepage/ifkaPifka.html">
+                    <img src="../../Stvari/WebpSlikeConvertane/logoTransWebp.webp" class="logo">
+                </a>
+                <div class="logos">
+                    <a href="https://www.instagram.com/pifkaifka" target="_blank"><i class="bi bi-instagram" id="white"></i></a>
+                    <a href="https://www.facebook.com/pifka.ifka/?locale=hr_HR" target="_blank"><i class="bi bi-facebook" id="white"></i></a>
+                    <a href="#"><i class="bi bi-twitter" id="white"></i></a>
+                </div> 
+            </section>
+               
+        
+            <section class="footerLinks">
+                <div class="linksContent">
+                    <b id="white">Dronax</b>
+                    <a href="#">O nama</a>
+                    <a href="../../Kodovi/Kontakt/kontakt.html">Kontakt</a>
+                    <a href="#">Dostava</a>
+                </div>
+
+                <div class="linksContent">
+                    <b id="white">Info</b>
+                    <a href="#">FAQ</a>
+                    <a href="#">Uvjeti poslovanja</a>
+                    <a href="#">Politika privatnosti</a>
+                </div>
+
+                <div class="linksContent">
+                    <b id="white">Kupnja</b>
+                    <a href="#">Naćini plaćanja</a>
+                    <a href="#">Profil</a>
+                    <a href="#">Košarica</a>
+                </div>
+            </section>
+        </aside>    
+
+        <div class="autorCopyright">
+            <p>© 2025 Ifka Pifka d.o.o. Sva prava zadržana.</p>
+        </div>
+    </footer>
+
+
+</main>
+
+<script src="../hamburgerMenu.js"></script>
+<script src="../Kosarica/cart.js"></script>
+
+</body>
+</html>
